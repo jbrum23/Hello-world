@@ -10,5 +10,7 @@ hello(name)
 # Output without passing the expected arguments
 hello()
 
-def hello(to):
+def hello(to=''):
     print("Hello," , to)
+
+    main()
